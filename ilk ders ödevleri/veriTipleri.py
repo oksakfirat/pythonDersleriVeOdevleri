@@ -3,8 +3,14 @@ egitmenAd="Halit"
 egitmenSoyad="kalaycı"
 
 #kategori ve eğitmen kısımında veriler list veri tipi kullanılmış.
-kategori=["yazılım","programlama","grafik tasarım"]
-egitmen=["Engin demiroğ","Halit kalaycı"]
+kategoriler=["yazılım","programlama","grafik tasarım"]
+egitmenler=["Engin demiroğ","Halit kalaycı"]
+
+for kategori in kategoriler:
+    print(kategori)
+
+for egitmen in egitmenler:
+    print(egitmen)
 
 #kursa kayıtlı değilse kurs içeriği gösterme burda veri tipi olarak bool kullanılmış ve denetleme olarak if else kullanılmış 
 kursaKayitOl=False
