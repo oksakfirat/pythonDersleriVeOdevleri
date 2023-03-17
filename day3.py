@@ -9,6 +9,8 @@ class Human:
         self.name=name
         print("Human instance oluşturuldu")
 
+    def __str__(self) -> str:#str geri dönüş tipi
+        return "Merhaba str ile obje döndü"
     def talk(self,sentence):
         print(f"{self.name}:{sentence}")
     def walk(self):
@@ -18,6 +20,7 @@ class Human:
 human1=Human("cem")
 human1.talk("Merhaba")
 human1.walk()
+print(human1)
 
 human2=Human("fırat")
 human2.talk("Selam")
