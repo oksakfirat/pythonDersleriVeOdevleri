@@ -35,6 +35,7 @@ def calculateAndReturn(price,discount):
     return price-discount
 yeniFiyat=calculateAndReturn(100,45)
 print(yeniFiyat)
+print(yeniFiyat)
 
 
 
