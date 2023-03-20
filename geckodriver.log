@@ -685,3 +685,19 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:52530/devtools/browser/4b0b5530-60e6-465f-9ab7-673cdf3407f3
 console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 461))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1679301165206	geckodriver	INFO	Listening on 127.0.0.1:53522
+1679301168215	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53523" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GENELK~1\\AppData\\Local\\Temp\\rust_mozprofileWOON0g"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679301173966	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679301173974	Marionette	INFO	Listening on port 53539
+Read port: 53539
+WebDriver BiDi listening on ws://127.0.0.1:53523
+Read port: 53539
+1679301178425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GENELK~1\\AppData\\Local\\Temp\\rust_mozprofileWOON0g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53523/devtools/browser/ba6a9dbf-5835-41f6-b16e-5a2119dcd817
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
